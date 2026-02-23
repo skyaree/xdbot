@@ -1,14 +1,14 @@
 {
-	"geode": "4.4.0",
+	"geode": "5.0.0",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081"
 	},
-	"version": "2.4.1",
+	"version": "2.4.2",
 	"id": "zilko.xdbot",
 	"name": "xdBot",
 	"developer": "Zilko",
-	"description": "Best Free Bot fr",
+	"description": "Best Free Bot fr updated by squeeare",
 	"dependencies": [
 		{
 			"id": "geode.custom-keybinds",
