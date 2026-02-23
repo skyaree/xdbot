@@ -44,11 +44,8 @@ const std::string buttonIDs[6] = {
     }
 
 class Global {
-
     Global() {}
-
 public:
-
     static auto& get() {
         static Global instance;
         return instance;
@@ -79,7 +76,7 @@ public:
     static PauseLayer* getPauseLayer();
 
     Mod* mod = Mod::get();
-    geode::Popup<>* layer = nullptr;
+    geode::Popup* layer = nullptr;
 
     Macro macro;
     Renderer renderer;
